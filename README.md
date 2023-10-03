@@ -172,3 +172,12 @@ aws sts get-caller-identity
 ### Terraform Directory
 
 - `.terraform` directory contains binaries of terraform providers. 
+
+### Adding AWS Terraform Provider
+
+- [Terraform Page for AWS](https://registry.terraform.io/providers/hashicorp/aws/latest)
+- Allows for Terraform to connect into AWS 
+
+### Terraform Destroy
+
+- Takers down what you have stood up in previous plan
