@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Define the alias you want to add
+aliasToAdd="alias tf=\"terraform\""
+
+# Define the target file
+targetFile="$HOME/.bash_profile"
+
+# Check if the alias already exists in the file
+if grep -Fxq "$aliasToAdd" $targetFile
+then
+    echo "Alias already exists in $targetFile"
+else
+    # If the alias doesn't exist, append it to the file
+    echo "$aliasToAdd" >> $targetFile
+    echo "Alias added to $targetFile"
+fi
