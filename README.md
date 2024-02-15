@@ -205,4 +205,4 @@ provide the following code (replace token in the file)
   }
 }
 ```
-
+Automated the process with a bash script [bin/generate_tfrc_credentials](bin/generate_tfrc_credentials)
